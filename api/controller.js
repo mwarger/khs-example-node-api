@@ -2,7 +2,7 @@
 
 function get(req, res) {
    
-    res.send('Hello Openshift :'+req.url);
+    res.send('Hello Openshift :'+req.originalUrl);
            
 }
 
