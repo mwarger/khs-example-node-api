@@ -1,5 +1,5 @@
 module.exports = {
-    port: process.env.PORT || 3001,
+    port: process.env.PORT || 8080,
     url: process.env.HEROKU_URL || 'http://localhost:3001/' ,
     jwt_secret: process.env.jwt_secret || 'lfanflaefknawelf',
     jwt_expires: process.env.jwt_expires || 3600,
