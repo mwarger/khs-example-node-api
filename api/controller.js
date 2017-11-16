@@ -4,7 +4,7 @@ var os = require('os');
 
 function get(req, res) {
    
-    res.send('Hello Openshift from - >'+os.hostname());
+    res.send('Hello David Openshift from - >'+os.hostname());
            
 }
 
